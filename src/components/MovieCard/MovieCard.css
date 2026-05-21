@@ -1,0 +1,83 @@
+.movie-card {
+  width: 180px;
+
+  flex-shrink: 0;
+
+  text-decoration: none;
+
+  color: white;
+
+  transition: transform 0.25s ease;
+}
+
+.movie-card:hover {
+  transform: translateY(-4px);
+}
+
+.movie-card img {
+  width: 100%;
+  height: 270px;
+
+  object-fit: cover;
+
+  border-radius: 12px;
+
+  display: block;
+}
+
+.movie-card-info {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: flex-start;
+
+  margin-top: 12px;
+
+  gap: 10px;
+}
+
+.movie-card-info h3 {
+  font-size: 16px;
+
+  font-weight: 600;
+
+  margin-bottom: 4px;
+
+  line-height: 1.3;
+}
+
+.movie-card-info p {
+  font-size: 14px;
+
+  color: #9ca3af;
+}
+
+.movie-card-info span {
+  font-size: 14px;
+
+  color: #facc15;
+
+  font-weight: 600;
+
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .movie-card {
+    width: 160px;
+  }
+
+  .movie-card img {
+    height: 240px;
+  }
+
+  .movie-card-info h3 {
+    font-size: 14px;
+  }
+
+  .movie-card-info p,
+  .movie-card-info span {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,24 @@
+.top-rated {
+  padding: 60px 80px;
+}
+
+.top-rated h2 {
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.top-rated-grid {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .top-rated {
+    padding: 40px 20px;
+  }
+
+  .top-rated-grid {
+    justify-content: center;
+  }
+}

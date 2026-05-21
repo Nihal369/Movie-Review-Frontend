@@ -1,0 +1,24 @@
+.related-movies {
+  padding: 60px 80px;
+}
+
+.related-movies h2 {
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.related-grid {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .related-movies {
+    padding: 40px 20px;
+  }
+
+  .related-grid {
+    justify-content: center;
+  }
+}

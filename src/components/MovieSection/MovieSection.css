@@ -1,0 +1,47 @@
+.movie-section {
+  padding: 30px 145px 50px;
+}
+
+.movie-section h2 {
+  font-size: 28px;
+
+  font-weight: 700;
+
+  margin-bottom: 22px;
+
+  color: white;
+  font-family: "Anton";
+  font-weight: 400;
+}
+
+.movie-row {
+  display: flex;
+
+  gap: 18px;
+
+  overflow-x: auto;
+
+  scroll-behavior: smooth;
+
+  scrollbar-width: none;
+}
+
+.movie-row::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 992px){
+    .movie-section {
+        padding: 20px 50px 40px;
+    }
+}
+
+@media (max-width: 768px) {
+  .movie-section {
+    padding: 20px 20px 40px;
+  }
+
+  .movie-section h2 {
+    font-size: 22px;
+  }
+}
